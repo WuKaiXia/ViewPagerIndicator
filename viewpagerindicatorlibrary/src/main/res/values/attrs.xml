@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <declare-styleable name="ColorTrackTextView">
-       <attr name="origin_color" format="color"/>
-       <attr name="change_color" format="color"/>
-   </declare-styleable>
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="origin_color" format="color" />
+        <attr name="change_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TrackIndicatorView">
+        <attr name="tabVisibleNumbers" format="integer" />
+        <attr name="indicator_text_select_color" format="color" />
+        <attr name="indicator_text_un_select_color" format="color" />
+    </declare-styleable>
 </resources>
