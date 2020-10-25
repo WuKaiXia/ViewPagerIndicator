@@ -15,6 +15,6 @@ allprojects {
 在module的build.gradle中添加下边的依赖 
 ```groovy
 dependencies {
-   implementation 'com.github.WuKaiXia:ViewPagerIndicator:v0.1-alpha'
+   implementation 'com.github.WuKaiXia:ViewPagerIndicator:v1.0'
 }
 ```
